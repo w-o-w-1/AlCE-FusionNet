@@ -1,5 +1,5 @@
 # ALCE-FusionNet
-###Data Prepare
+### Data Prepare
 * The dataset folder is stored in the following location:
 Dataset/
 │
@@ -16,9 +16,12 @@ Dataset/
 │   └─——val
 │   └─——test
 
-###Train
+### Train
+'''
 yolo task=detect    mode=train    model=ultralytics/cfg/datasets/yolov8-ALCE.yaml   data=ultralytics/cfg/datasets/m3fd.yaml  args...
+'''
 
-
-###Test
+### Test
+'''
 yolo task=detect    mode=val    model=best.pt   data="Dateset/image/"   args...
+'''
