@@ -1,20 +1,20 @@
 # ALCE-FusionNet
 ### Data Prepare
-* The dataset folder is stored in the following location:
-Dataset/
-│
-├─—— image/   #RGB modality
-│   ├─——train
-│   └─——val
-│   └─——test
-├─—— images/   #IR modality
-│   ├─——train
-│   └─——val
-│   └─——test
-├─—— label/
-│   ├─——train
-│   └─——val
-│   └─——test
+* The dataset folder is stored in the following location: \<br>
+Dataset/ \<br>
+│ \<br>
+├─—— image/   #RGB modality \<br>
+│   ├─——train \<br>
+│   └─——val  \<br>
+│   └─——test  \<br>
+├─—— images/   #IR modality  \<br>
+│   ├─——train  \<br>
+│   └─——val  \<br>
+│   └─——test  \<br>
+├─—— label/  \<br>
+│   ├─——train  \<br>
+│   └─——val  \<br>
+│   └─——test  \<br>
 
 ### Train
 '''
